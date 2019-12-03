@@ -10,4 +10,6 @@
     <button bindtap="openVideoAd" class="cu-btn round lg bg-red shadow" style="width:400rpx;" wx:if="{{showAd&&isGG}}">看广告解锁答案</button>
     <button class="cu-btn round lg bg-red shadow" openType="share" style="width:400rpx;" wx:if="{{showAd&&!isGG}}">分享到群解锁答案</button>
 </view>
+
 <button class="share_yuan" openType="share">分享</button>
+

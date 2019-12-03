@@ -21,3 +21,4 @@
     <view class="ifd">▲</view>
 </view>
 <button class="share_yuan" openType="share">分享</button>
+ <view style="height:70rpx;width:700rpx;text-align:center">作者QQ：971762278</view>
