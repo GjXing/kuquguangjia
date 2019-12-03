@@ -1,0 +1,9 @@
+<template name="Grid5">
+    <view style="width:{{grid.w}}rpx;height:{{grid.h}}rpx;">
+        <image src="{{grid.img[0]}}" style="width:{{grid.split[0]}}rpx;height:{{grid.h}}rpx;position:absolute;left:0rpx;top:0rpx;"></image>
+        <image src="{{grid.img[1]}}" style="width:{{grid.w-grid.split[0]-grid.split[3]-grid.split[0]-grid.split[2]+2}}rpx;height:{{grid.h}}rpx;position:absolute;left:{{grid.split[0]}}rpx;top:0rpx;"></image>
+        <image src="{{grid.img[2]}}" style="width:{{grid.split[3]}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:{{grid.w-grid.split[0]-grid.split[3]-grid.split[2]}}rpx;top:-14rpx;"></image>
+        <image src="{{grid.img[3]}}" style="width:{{grid.split[2]}}rpx;height:{{grid.h}}rpx;position:absolute;left:{{grid.w-grid.split[0]-grid.split[2]-1}}rpx;top:0rpx;"></image>
+        <image src="{{grid.img[4]}}" style="width:{{grid.split[0]}}rpx;height:{{grid.h}}rpx;position:absolute;left:{{grid.w-grid.split[0]-2}}rpx;top:0rpx;"></image>
+    </view>
+</template>

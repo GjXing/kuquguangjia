@@ -1,0 +1,32 @@
+<view class="page">
+    <view class="overFight">
+        <view class="pipeia">
+            <button bindtap="zlyj" class="btn_pipeia">再来一局</button>
+        </view>
+        <view class="pipeib">
+            <button class="btn_pipeib" openType="share">炫耀成绩</button>
+        </view>
+        <view class="left_info">
+            <view class="jifena">{{left_fen}}分</view>
+            <view class="daduia">答对{{left_dadui}}题</view>
+            <image backgroundSize="cover" class="userinfo-avatara" src="{{left_Url}}"></image>
+            <text class="userinfo-nicknamea one_line">{{left_name}}</text>
+            <image class="diban_left" src="../../imgs/comm/over_dibana.png" style="width:320rpx;height:175rpx;"></image>
+        </view>
+        <view class="img_sl" wx:if="{{win_sf}}">
+            <image class="imgs_left" src="../../imgs/comm/qizi.png" style="width:50rpx;height:74rpx;opacity: {{opa}}"></image>
+            <image src="../../imgs/comm/shengli.png" style="width:468;height:384;opacity: {{opa}}"></image>
+        </view>
+        <view class="img_sb" wx:if="{{!win_sf}}">
+            <image class="imgs_right" src="../../imgs/comm/qizi.png" style="width:50rpx;height:74rpx;opacity: {{opa}}"></image>
+            <image src="../../imgs/comm/shibai.png" style="width:468;height:384;opacity: {{opa}}"></image>
+        </view>
+        <view class="right_info">
+            <view class="jifenb">{{right_fen}}分</view>
+            <view class="daduib">答对{{right_dadui}}题</view>
+            <image backgroundSize="cover" class="userinfo-avatarb" src="{{right_Url}}"></image>
+            <text class="userinfo-nicknameb one_line">{{right_name}}</text>
+            <image class="diban_right" src="../../imgs/comm/over_diban.png" style="width:320rpx;height:175rpx;"></image>
+        </view>
+    </view>
+</view>

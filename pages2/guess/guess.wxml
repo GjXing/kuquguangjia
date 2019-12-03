@@ -1,0 +1,54 @@
+<view catchtouchmove="true">
+    <view catchtouchmove="preventTouchMove" class="mask" wx:if="{{isSuccess}}"></view>
+    <view catchtouchmove="preventTouchMove" class="mask" wx:if="{{isShowAnser}}"></view>
+    <view class="successPancel" wx:if="{{isSuccess}}">
+        <image src="../../images/success.png" style="width: 480rpx;height: 160rpx;"></image>
+        <view class="successbox">
+            <text>回答正确</text>
+        </view>
+        <button bindtap="gotoNext" class="nextLevelBtn">下一关</button>
+    </view>
+    <view class="answerPancel" wx:if="{{isShowAnser}}">
+        <view class="answerbox">
+            <text class="aTxt">{{answer}}</text>
+        </view>
+        <button bindtap="closeAnser" class="nextLevelBtn">关闭</button>
+    </view>
+    <view class="questionPanel">
+        <view class="questionPanel-view">
+            <text class="qWord">{{question}}</text>
+        </view>
+        <view class="tipsPanel">
+            <text>提示:{{hint}}</text>
+        </view>
+        <view class="showPanel">
+            <block wx:for="{{wordLength}}" wx:key="{{index}}">
+                <view wx:if="{{index%6==0}}"></view>
+                <view bindtap="clearWord" class="showBox bg-def" data-pos="{{index}}">
+                    <text class="showWord">{{wordString[index]}}</text>
+                </view>
+            </block>
+        </view>
+        <view style="text-align: center;margin-bottom: 10rpx;"></view>
+    </view>
+    <view class="showBtnPancel">
+        <button bindtap="gotoLevel" class="btn btn_1">
+            <text>选关</text>
+        </button>
+        <button bindtap="showAnswer" class="btn btn_2">
+            <text>查看答案</text>
+        </button>
+        <button class="btn btn_3" openType="share">
+            <text>求助好友</text>
+        </button>
+    </view>
+    <view class="chosePanel">
+        <block wx:for="{{candiCopys}}" wx:key="{{index}}">
+            <view wx:if="{{index%5==0}}"></view>
+            <view bindtap="bindFill" class="choseBox" data-loc="{{index}}">
+                <text class="choseWord">{{candidates[index]}}</text>
+            </view>
+        </block>
+    </view>
+</view>
+<ad unitId="{{adunit}}"></ad>

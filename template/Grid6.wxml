@@ -1,0 +1,13 @@
+<template name="Grid6">
+    <view style="width:{{grid.w}}rpx;height:{{grid.h}}rpx;">
+        <image src="{{grid.img[0]}}" style="width:{{grid.split[0]}}rpx;height:{{grid.split[2]}}rpx;position:absolute;left:0rpx;top:0rpx;"></image>
+        <image src="{{grid.img[1]}}" style="width:{{grid.w-grid.split[0]-grid.split[2]+2}}rpx;height:{{grid.split[2]}}rpx;position:absolute;left:{{grid.split[0]}}rpx;top:0rpx;"></image>
+        <image src="{{grid.img[2]}}" style="width:{{grid.split[2]}}rpx;height:{{grid.split[2]}}rpx;position:absolute;left:{{grid.w-grid.split[2]}}rpx;top:0rpx;"></image>
+        <image src="{{grid.img[3]}}" style="width:{{grid.split[0]}}rpx;height:{{grid.h-grid.split[1]-grid.split[2]+8}}rpx;position:absolute;left:0rpx;top:{{grid.split[2]}}rpx;"></image>
+        <image src="{{grid.img[5]}}" style="width:{{grid.split[2]}}rpx;height:{{grid.h-grid.split[1]-grid.split[2]+8}}rpx;position:absolute;left:{{grid.w-grid.split[2]}}rpx;top:{{grid.split[2]}}rpx;"></image>
+        <image src="{{grid.img[6]}}" style="width:{{grid.split[3]}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:0rpx;top:{{grid.h-grid.split[2]-grid.split[0]}}rpx;"></image>
+        <image src="{{grid.img[7]}}" style="width:{{grid.w-grid.split[3]-grid.split[3]}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:{{grid.split[3]}}rpx;top:{{grid.h-grid.split[2]-grid.split[0]}}rpx;"></image>
+        <image src="{{grid.img[8]}}" style="width:{{grid.split[3]}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:{{grid.w-grid.split[3]-2}}rpx;top:{{grid.h-grid.split[2]-grid.split[0]}}rpx;"></image>
+        <image src="{{grid.img[4]}}" style="width:{{grid.split[1]-6}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:{{grid.w-grid.split[3]-grid.split[3]-grid.split[2]-20}}rpx;top:{{grid.h-grid.split[2]-grid.split[0]-3}}rpx;"></image>
+    </view>
+</template>

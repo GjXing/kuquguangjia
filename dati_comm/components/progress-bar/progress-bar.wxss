@@ -1,0 +1,24 @@
+.progress-bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-bar-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.progress-bar-middle {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+.progress-bar-fore {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-radius: 15rpx;
+}

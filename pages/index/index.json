@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "friendlink": "/component/friendlink/friendlink",
+        "suggestion": "/component/suggestion/suggestion"
+    },
+    "navigationBarTitleText": "成语接龙"
+}

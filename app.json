@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages1/index/index",
+    "pages2/index/index",
+    "pages3/index/index",
+    "pages/fight/fight",
+    "pages/play/play",
+    "pages/jiecy/jiecy",
+    "pages/overFight/overFight",
+    "pages/sel/sel",
+    "pages/level/level",
+    "pages/signin/signin",
+    "pages/number/number",
+    "pages/numberSel/numberSel",
+    "pages/numberPlay/numberPlay",
+    "pages/prepare/prepare",
+    "pages/pay/pay",
+    "pages1/detail/detail",
+    "pages2/guess/guess",
+    "pages2/level/level",
+    "pages3/game/game",
+    "pages/gongju/gongju"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6BC8EA",
+    "navigationBarTitleText": "成语谜语歇后语",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#000000"
+  },
+  "tabBar": {
+    "color": "#3b3b3b",
+    "backgroundColor": "#f3f3f3",
+    "selectedColor": "#2abad4",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "成语",
+        "iconPath": "images/biaoji1off.png",
+        "selectedIconPath": "images/biaoji1.png"
+      },
+      {
+        "pagePath": "pages2/index/index",
+        "text": "谜语",
+        "iconPath": "images/ziliaooff.png",
+        "selectedIconPath": "images/ziliao.png"
+      },
+      {
+        "pagePath": "pages3/index/index",
+        "text": "歇后语",
+        "iconPath": "images/yinpingoff.png",
+        "selectedIconPath": "images/yinping.png"
+      },
+      {
+        "pagePath": "pages1/index/index",
+        "text": "急转弯",
+        "iconPath": "images/kechengoff.png",
+        "selectedIconPath": "images/kecheng.png"
+      },
+      {
+        "pagePath": "pages/gongju/gongju",
+        "text": "更多好玩",
+        "iconPath": "pages/gongju/image/gj.png",
+        "selectedIconPath": "pages/gongju/image/gj_selected.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxff5d308964ef7249",
+    "wxbb67ae4ec3038880",
+    "wx92e4a9ae77872808",
+    "wxea082c8f72c60cbe",
+    "wxfaf586be28a0178e",
+    "wxeefb96ae52ba19af",
+    "wxe89e93fa7ba60dfc",
+    "wx38571c709c5a9efa",
+    "wx5ea9653177786b90",
+    "wx2828e68167ecece5"
+  ],
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

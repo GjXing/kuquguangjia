@@ -1,0 +1,33 @@
+<view class="page">
+    <view class="content">
+        <view class="day_item" style="background-color: {{item_bg[0]}};">
+            <view class="day_num" style="background-color: {{num_bg[0]}};color:{{font_color[0]}}">第一天</view>
+            <view class="coin_num" style="color:{{font_color[0]}}">20金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[1]}};">
+            <view class="day_num" style="background-color: {{num_bg[1]}};color:{{font_color[1]}}">第二天</view>
+            <view class="coin_num" style="color:{{font_color[1]}}">40金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[2]}};">
+            <view class="day_num" style="background-color: {{num_bg[2]}};color:{{font_color[2]}}">第三天</view>
+            <view class="coin_num" style="color:{{font_color[2]}}">60金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[3]}};">
+            <view class="day_num" style="background-color: {{num_bg[3]}};color:{{font_color[3]}}">第四天</view>
+            <view class="coin_num" style="color:{{font_color[3]}}">80金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[4]}};">
+            <view class="day_num" style="background-color: {{num_bg[4]}};color:{{font_color[4]}}">第五天</view>
+            <view class="coin_num" style="color:{{font_color[4]}}">100金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[5]}};">
+            <view class="day_num" style="background-color: {{num_bg[5]}};color:{{font_color[5]}}">第六天</view>
+            <view class="coin_num" style="color:{{font_color[5]}}">120金币</view>
+        </view>
+        <view class="day_item" style="background-color: {{item_bg[6]}};">
+            <view class="day_num" style="background-color: {{num_bg[6]}};color:{{font_color[6]}}">第七天</view>
+            <view class="coin_num" style="color:{{font_color[6]}}">140金币</view>
+        </view>
+        <button bindtap="onKnow" class="btn_hongbao">领取金币</button>
+    </view>
+</view>

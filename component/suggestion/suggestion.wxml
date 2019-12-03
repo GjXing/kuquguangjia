@@ -1,0 +1,19 @@
+<view class="more-title">
+    <image class="line" mode="widthFix" src="xiantiao.jpg"></image>
+    <image class="fangkuai" mode="widthFix" src="fangkuai.png"></image>
+    <text>以下更多游戏推荐</text>
+    <image class="fangkuai" mode="widthFix" src="fangkuai.png"></image>
+    <image class="line" mode="widthFix" src="xiantiao.jpg"></image>
+</view>
+<navigator appId="{{item.appid}}" bindtap="tapApp" class="more_list" data-idx="{{index}}" path="{{item.page}}?type=link&adid={{item.adid}}" target="miniProgram" wx:for="{{suggestList}}">
+    <image class="icon" src="{{item.image}}"></image>
+    <view style="flex: 1">
+        <view class="text_title">{{item.title}}</view>
+        <view class="text_desc">{{item.description}}</view>
+    </view>
+    <view>
+        <text class="play_btn">{{item.button}}</text>
+        <view class="text_get" wx:if="{{!item.click}}">领{{item.coins}}金币</view>
+        <view class="text_get" wx:if="{{item.click}}">换种玩法</view>
+    </view>
+</navigator>

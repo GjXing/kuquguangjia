@@ -1,0 +1,14 @@
+<view class="game-container">
+    <view class="logo">
+        <image mode="aspectFit" src="../assets/img/logo.jpg"></image>
+    </view>
+    <view class="btn-modelevel">
+        <image bindtap="startGame" class="{{startHover}}" mode="aspectFit" src="../assets/img/btn_mode-level.png"></image>
+    </view>
+    <ad unitId="{{adunit}}"></ad>
+</view>
+<view catchtap="closeIFav" class="ifav" wx:if="{{showIfa}}">
+  添加到【我的桌面】, 方便下次使用
+  <view class="ifd">▲</view>
+</view>
+<button class="share_yuan" openType="share">分享</button>

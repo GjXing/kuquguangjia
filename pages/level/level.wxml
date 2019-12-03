@@ -1,0 +1,37 @@
+<image class="bg-img" src="http://hyimages.oss-cn-beijing.aliyuncs.com/ccy/bj-hl/zy.jpg"></image>
+<scroll-view scrollY class="scroll-box">
+    <view class="page" style="background:none;">
+        <view style="height:880rpx;">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <image bindtap="clickItem" class="flex-item" data-item="1" src="{{level_url[0]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="2" src="{{level_url[1]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="3" src="{{level_url[2]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="4" src="{{level_url[3]}}"></image>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <image bindtap="clickItem" class="flex-item" data-item="5" src="{{level_url[4]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="6" src="{{level_url[5]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="7" src="{{level_url[6]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="8" src="{{level_url[7]}}"></image>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <image bindtap="clickItem" class="flex-item" data-item="9" src="{{level_url[8]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="10" src="{{level_url[9]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="11" src="{{level_url[10]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="12" src="{{level_url[11]}}"></image>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <image bindtap="clickItem" class="flex-item" data-item="13" src="{{level_url[12]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="14" src="{{level_url[13]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="15" src="{{level_url[14]}}"></image>
+                <image bindtap="clickItem" class="flex-item" data-item="16" src="{{level_url[15]}}"></image>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <image bindtap="clickItem" class="flex-item" data-item="17" src="{{level_url[16]}}"></image>
+                <image class="flex-item" src="{{level_url[17]}}" style="visibility:'hidden';"></image>
+                <image class="flex-item" src="{{level_url[18]}}" style="visibility:'hidden';"></image>
+                <image class="flex-item" src="{{level_url[19]}}" style="visibility:'hidden';"></image>
+            </view>
+        </view>
+    </view>
+</scroll-view>

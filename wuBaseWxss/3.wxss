@@ -1,0 +1,102 @@
+page {
+    background-color: #f5e4af;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+
+.block-botton {
+    align-items: center;
+    bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.page-detail-botton-ad {
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    z-index: 99;
+}
+
+.cssIPX {
+    padding-bottom: 34px;
+}
+
+.page-detail-botton-ad ad {
+    transform: scale(0.9)!important;
+}
+
+.gotoApp {
+    float: right;
+    position: fixed;
+    top: 300rpx;
+    right: 20rpx;
+    padding: 0px;
+    border: none;
+    plain: true;
+    box-sizing: 0px;
+    line-height: 0;
+    background-color: none;
+    z-index: 99;
+    display: block;
+    text-align: center;
+}
+
+.gotoApp text {
+    font-size: 14px;
+}
+
+.gotoApp .appIcon {
+    height: 53px;
+    width: 48px;
+}
+
+.ifav {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.6rem;
+    color: #fff;
+    background: #fc0101;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.3rem #fc0101;
+    z-index: 10100;
+}
+
+.ifd {
+    position: absolute;
+    top: -0.8rem;
+    right: 3.8rem;
+    color: #fc0101;
+    font-size: 1rem;
+}
+
+.share_yuan {
+    z-index: 5000;
+    width: 90rpx;
+    height: 90rpx;
+    position: fixed;
+    top: 300rpx;
+    right: 10rpx;
+    font-size: 30rpx;
+    background: -webkit-gradient(linear,0% 100%,100% 100%,from(rgba(255,0,0,1)),to(rgba(255,0,200,1)));
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1rpx solid #ffffff;
+    border-radius: 50% 50%;
+    border-right: none;
+    box-shadow: 1px 1px 1px #888888;
+    font-weight: bold;
+}

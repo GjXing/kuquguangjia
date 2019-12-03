@@ -1,0 +1,274 @@
+@import "../fight/fightPage.wxss";
+
+.page {
+    padding-top: 0rpx;
+    justify-content: flex-start;
+}
+
+.up_page {
+    height: 670rpx;
+    width: 98%;
+    padding-top: 8rpx;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: #FED24C;
+    border: solid;
+    border-radius: 10rpx;
+    border-width: 4rpx;
+    border-color: #c78aab;
+}
+
+.flex_wrp_content {
+    height: 690rox;
+    width: 95%;
+}
+
+.flex-wrp {
+    height: 65rpx;
+    display: flex;
+    margin-top: 2rpx;
+    margin-left: 2rpx;
+    margin-right: 2rpx;
+    margin-bottom: 2rpx;
+}
+
+.flex-item {
+    width: 70rpx;
+    height: 65rpx;
+    display: flex;
+    margin-left: 1rpx;
+    margin-right: 1rpx;
+    justify-content: center;
+    align-items: center;
+    font-size: 13pt;
+    color: #605527;
+    font-weight: 600;
+    background-color: #ffffff;
+}
+
+.helper {
+    height: 80rpx;
+    width: 98%;
+    display: flex;
+    margin-top: 10rpx;
+    border: solid;
+    border-radius: 10rpx;
+    border-width: 4rpx;
+    border-color: #a56889;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.helper-tips {
+    height: 70rpx;
+    width: 190rpx;
+    background-color: #94db42;
+    font-size: 36rpx;
+    margin-top: 5rpx;
+    text-align: center;
+    line-height: 70rpx;
+    margin-left: 38rpx;
+    color: #ffffff;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #438f44;
+}
+
+.helper-free {
+    height: 70rpx;
+    width: 190rpx;
+    margin-top: 5rpx;
+    background-color: #fec130;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 70rpx;
+    font-weight: 700;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #ad772f;
+}
+
+.helper-share {
+    height: 70rpx;
+    width: 190rpx;
+    background-color: #e54539;
+    font-size: 36rpx;
+    margin-top: 5rpx;
+    text-align: center;
+    line-height: 70rpx;
+    margin-left: 38rpx;
+    margin-right: 40rpx;
+    font-weight: 700;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #940a38;
+}
+
+.mid-right {
+    height: 62rpx;
+    width: 190rpx;
+    margin-top: 5rpx;
+    display: flex;
+    font-size: 28rpx;
+    color: #ffffff;
+    border-style: solid;
+    margin-left: 38rpx;
+    background-color: #ffffff;
+    border-radius: 10rpx;
+    border-width: 4rpx;
+    border-color: #933854;
+    padding-bottom: 2rpx;
+}
+
+.point-left {
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 2rpx;
+}
+
+.point-num {
+    width: 120rpx;
+    height: 61rpx;
+    line-height: 61rpx;
+    margin-top: 2rpx;
+    color: #000000;
+    margin-left: 5rpx;
+    justify-content: center;
+    font-size: 36rpx;
+    align-items: center;
+    font-weight: 700;
+}
+
+.ans_sel_wrp {
+    width: 98%;
+    display: flex;
+    padding-top: 2rpx;
+    margin-top: 10rpx;
+    border: solid;
+    border-radius: 10rpx;
+    border-width: 4rpx;
+    border-color: #834667;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bottom {
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    color: #ff0000;
+    background-color: #efb983;
+}
+
+.bottom_menu {
+    width: 100%;
+    height: 90rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000;
+    background-color: #efb983;
+}
+
+.banner {
+    width: 100%;
+    height: 180rpx;
+}
+
+.bottom-item {
+    width: 40%;
+    height: 92rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    font-weight: 500;
+    color: #605527;
+    background-color: #efb983;
+    border-radius: 20rpx;
+}
+
+.point-add {
+    width: 56rpx;
+    height: 56rpx;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 28rpx;
+    margin: 2rpx;
+    align-items: center;
+}
+
+.flex-wrp-bottom {
+    height: 100rpx;
+    margin-top: 12rpx;
+}
+
+.wx-group {
+    height: 90rpx;
+    margin-top: 12rpx;
+    display: flex;
+}
+
+.text {
+    height: 90rpx;
+    width: 480rpx;
+    color: #aa2c21;
+    font-size: 11pt;
+}
+
+.copy {
+    height: 80rpx;
+    width: 190rpx;
+    margin-left: 20rpx;
+    color: #ffffff;
+    margin-top: 5rpx;
+    background-color: #933854;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 11pt;
+    border-radius: 10rpx;
+}
+
+.id {
+    height: 48rpx;
+    width: 120rpx;
+    color: #605527;
+    font-weight: 900;
+    line-height: 48rpx;
+}
+
+.text_tips {
+    height: 90rpx;
+    width: 700rpx;
+    color: #aa2c21;
+    text-align: center;
+    line-height: 90rpx;
+    font-size: 10pt;
+}
+
+.flex-wrp-top {
+    height: 50rpx;
+    margin-bottom: 24rpx;
+}
+
+.text_zkl {
+    height: 90rpx;
+    width: 700rpx;
+    color: #ff0000;
+    text-align: center;
+    line-height: 90rpx;
+    font-size: 10pt;
+}
+
+.xg-moreGamePic3 {
+    width: 307rpx;
+    height: 90rpx;
+    position: fixed;
+    right: 0rpx;
+    bottom: 0rpx;
+}

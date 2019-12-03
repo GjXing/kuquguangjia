@@ -1,0 +1,44 @@
+<view class="game-container">
+    <view id="question-box">
+        <view class="question-level">
+            <text>{{questionLevel}}</text>
+        </view>
+        <view class="question-title">
+            <text class="question-title-text">{{questionTitle}}</text>
+        </view>
+        <view animation="{{animationAnswer}}" class="question-answer" style="{{styleAnswer}}">
+            <text class="question-answer-text">{{questionAnswer}}</text>
+        </view>
+        <view class="question-btns">
+            <image bindtap="noticeTap" class="{{noticeHover}}" mode="aspectFit" src="../assets/img/btn_notice.png"></image>
+            <button hoverClass="btn-hover" openType="share" wx:if="{{!isGG}}"></button>
+            <image bindtap="videoAddCoins" mode="aspectFit" src="../assets/img/btn_video.png" wx:if="{{isGG}}"></image>
+        </view>
+    </view>
+    <view id="coin-box">
+        <image mode="aspectFit" src="../assets/img/icon_coin_bg.png"></image>
+        <text>{{coinNum}}</text>
+    </view>
+    <view id="userinfo-box">
+        <view class="userphoto">
+            <image mode="aspectFit" src="../assets/img/photo.png"></image>
+        </view>
+        <text class="level-name">{{levelName}}</text>
+        <text class="level-text" decode="{{true}}">距离{{nextLevelName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关</text>
+        <text class="level-gap">{{levelGap}}</text>
+    </view>
+    <view id="option-box">
+        <view animation="{{animationOption[idx]}}" bindtap="optionTap" class="option-btn {{checkedOption[idx]?'option-checked':''}}" data-index="{{idx}}" style="{{styleMask}}" wx:for="{{optionList}}" wx:for-index="idx" wx:key="{{idx}}">
+            <text>{{item}}</text>
+        </view>
+    </view>
+    <view animation="{{animationMask}}" class="mask-box {{tipsshow}}" style="{{styleMask}}">
+        <view class="mask-content">
+            <text class="mask-title" decode="{{true}}">&nbsp;&nbsp;&nbsp;{{maskTitle}}</text>
+            <text class="mask-text">{{maskText}}</text>
+            <text class="mask-num">+{{maskNum}}</text>
+            <image bindtap="hidePop" class="mask-btn" mode="aspectFit" src="../assets/img/btn_next.png"></image>
+        </view>
+    </view>
+    <ad unitId="{{adunit}}"></ad>
+</view>

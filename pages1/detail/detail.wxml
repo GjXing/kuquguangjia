@@ -1,0 +1,13 @@
+<view class="question">{{question}}</view>
+<text class="anwser" wx:if="{{showanswer}}">{{answer}}</text>
+<text class="desc" wx:if="{{showanswer}}">{{desc}}</text>
+<view class="sharebtncontainer justify-around">
+    <button bindtap="forward" class="cu-btn round lg bg-orange shadow" style="width:200rpx;">上一题</button>
+    <button bindtap="next" class="cu-btn round lg bg-orange shadow" style="width:200rpx;">下一题</button>
+</view>
+<view class="anwsercontainer justify-center">
+    <button bindtap="showanswer" class="cu-btn round lg bg-red shadow" style="width:400rpx;" wx:if="{{!showAd}}">看答案</button>
+    <button bindtap="openVideoAd" class="cu-btn round lg bg-red shadow" style="width:400rpx;" wx:if="{{showAd&&isGG}}">看广告解锁答案</button>
+    <button class="cu-btn round lg bg-red shadow" openType="share" style="width:400rpx;" wx:if="{{showAd&&!isGG}}">分享到群解锁答案</button>
+</view>
+<button class="share_yuan" openType="share">分享</button>

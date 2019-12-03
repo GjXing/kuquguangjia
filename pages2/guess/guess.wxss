@@ -1,0 +1,216 @@
+@import "../../wuBaseWxss/3.wxss";
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9000;
+    opacity: 0.7;
+}
+
+.successPancel {
+    width: 580rpx;
+    height: 620rpx;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 9999;
+    margin: -370rpx 85rpx;
+    background-color: #f9e090;
+    border-radius: 36rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.successbox {
+    margin-top: 80rpx;
+    text-align: center;
+}
+
+.successbox text {
+    font-size: 54rpx;
+    color: #000000;
+    font-weight: bold;
+}
+
+.answerPancel {
+    width: 580rpx;
+    height: 400rpx;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 9999;
+    margin: -320rpx 85rpx;
+    background-color: #f9e090;
+    border-radius: 36rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answerbox {
+    margin-top: 80rpx;
+    text-align: center;
+}
+
+.answerbox .aTxt {
+    font-size: 54rpx;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nextLevelBtn {
+    bottom: -140rpx;
+    width: 320rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+}
+
+.titilePanel {
+    text-align: center;
+    font-size: 16;
+}
+
+.titilePanel text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.questionPanel {
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    border: 4px solid #974c09;
+    align-items: center;
+    background-color: #e6f8fc;
+    border-radius: 8px;
+}
+
+.questionPanel-view {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.showPanel {
+    text-align: center;
+}
+
+.tipsPanel {
+    margin-top: 3px;
+    text-align: center;
+}
+
+.tipsPanel text {
+    font-size: 32rpx;
+    color: #576160;
+}
+
+.showBtnPancel {
+    margin-top: 5px;
+    display: inline-table;
+    position: relative;
+    width: 100%;
+}
+
+.btn {
+}
+
+.btn text {
+    color: #F9FFF4;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.btn_1 {
+    left: 40rpx;
+    width: 160rpx;
+    height: 60rpx;
+    border-radius: 8rpx;
+    background-color: #f0a71d;
+    text-align: center;
+    line-height: 60rpx;
+    position: relative;
+    float: left;
+}
+
+.btn_2 {
+    left: 100rpx;
+    width: 200rpx;
+    height: 60rpx;
+    border-radius: 8rpx;
+    background-color: #f0a71d;
+    text-align: center;
+    line-height: 60rpx;
+    position: relative;
+    float: left;
+}
+
+.btn_3 {
+    left: 160rpx;
+    width: 200rpx;
+    height: 60rpx;
+    border-radius: 8rpx;
+    background-color: #f0a71d;
+    text-align: center;
+    line-height: 60rpx;
+    position: relative;
+    float: left;
+}
+
+.qWord {
+    margin: 1rpx;
+    font-size: 46rpx;
+    line-height: 80rpx;
+    font-weight: bold;
+}
+
+.showBox {
+    display: inline-table;
+    text-align: center;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 4px;
+    margin: 4px;
+    line-height: 90rpx;
+    background-color: #6f3d1c;
+}
+
+.showWord {
+    margin: 1rpx;
+    font-size: 64rpx;
+    line-height: 120rpx;
+    color: #f9fff4;
+    font-weight: bold;
+}
+
+.choseBox {
+    display: inline-table;
+    text-align: center;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 4px;
+    margin: 4px;
+    line-height: 90rpx;
+    border: 2px solid #974c09;
+    background-color: #efeeea;
+}
+
+.choseWord {
+    margin: 1rpx;
+    font-size: 48rpx;
+    line-height: 120rpx;
+    color: #050306;
+    font-weight: bold;
+}
+
+.chosePanel {
+    margin-top: 3px;
+    margin-bottom: 40px;
+    text-align: center;
+}

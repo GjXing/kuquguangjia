@@ -1,0 +1,23 @@
+@import "../index/index.wxss";
+
+.share_yuan {
+    z-index: 5000;
+    width: 90rpx;
+    height: 90rpx;
+    position: fixed;
+    top: 700rpx;
+    right: 10rpx;
+    font-size: 30rpx;
+    background: -webkit-gradient(linear,0% 100%,100% 100%,from(rgba(255,0,0,1)),to(rgba(255,0,200,1)));
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1rpx solid #ffffff;
+    border-radius: 50% 50%;
+    border-right: none;
+    box-shadow: 1px 1px 1px #888888;
+    font-weight: bold;
+}

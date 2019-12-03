@@ -1,0 +1,11 @@
+<template name="circle">
+    <view class="app_circle_box">
+        <view class="app_circle_left" style="transform: rotate({{deg>=180?deg-180:0}}deg);">
+            <view class="app_circle_left_child"></view>
+        </view>
+        <view class="app_circle_right" style="transform: rotate({{deg>=180?0:deg}}deg);">
+            <view class="app_circle_right_child"></view>
+        </view>
+        <view class="app_right_mark" wx:if="{{deg>=180}}"></view>
+    </view>
+</template>

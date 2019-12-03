@@ -1,0 +1,253 @@
+@import "../fight/fightPage.wxss";
+
+.page {
+    background-color: #ecb2d2;
+    padding-top: 5rpx;
+    justify-content: flex-start;
+}
+
+.group {
+    height: 620rpx;
+    width: 700rpx;
+    margin-left: 25rpx;
+    margin-right: 25rpx;
+}
+
+.up-group {
+    height: 620rpx;
+    width: 700rpx;
+    border-radius: 10rpx;
+}
+
+.header {
+    height: 165rpx;
+    width: 600rpx;
+    margin-left: 50rpx;
+}
+
+.header-content {
+    height: 140rpx;
+    width: 600rpx;
+    text-align: center;
+    line-height: 90rpx;
+    padding-top: 8rpx;
+    color: #3b8840;
+    font-size: 56rpx;
+    font-weight: 900;
+}
+
+.level-icon {
+    height: 280rpx;
+    width: 120rpx;
+    margin-top: 85rpx;
+    margin-left: 20rpx;
+}
+
+.main-img {
+    height: 320rpx;
+    width: 320rpx;
+    margin-left: 180rpx;
+    align-items: center;
+    margin-bottom: 20rp;
+    background-color: #ffffff;
+    border-radius: 15rpx;
+    border-style: solid;
+    border-width: 8rpx;
+    border-color: #c37d4c;
+}
+
+.main-img-src {
+    height: 290rpx;
+    width: 290rpx;
+    margin: 15rpx;
+}
+
+.helper {
+    height: 70rpx;
+    width: 640rpx;
+    display: flex;
+    margin-left: 30rpx;
+    margin-top: 20rpx;
+}
+
+.helper-tips {
+    height: 70rpx;
+    width: 190rpx;
+    background-color: #94db42;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 65rpx;
+    color: #ffffff;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #438f44;
+}
+
+.helper-free {
+    height: 70rpx;
+    width: 190rpx;
+    background-color: #fec130;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 65rpx;
+    font-weight: 700;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #ad772f;
+}
+
+.helper-share {
+    height: 70rpx;
+    width: 190rpx;
+    background-color: #e54539;
+    font-size: 28rpx;
+    text-align: center;
+    line-height: 65rpx;
+    font-weight: 700;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #940a38;
+}
+
+.mid-group {
+    height: 100rpx;
+    width: 750rpx;
+}
+
+.mid-group-1 {
+    height: 100rpx;
+    width: 750rpx;
+    display: flex;
+}
+
+.center-group {
+    height: 70rpx;
+    width: 360rpx;
+    display: flex;
+    margin-left: 180rpx;
+    margin-top: 15rpx;
+}
+
+.ans-items {
+    width: 78rpx;
+    height: 80rpx;
+    display: flex;
+    margin-left: 6rpx;
+    margin-right: 6rpx;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    color: #842800;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #fff6d8;
+}
+
+.mid-right-group {
+    width: 200rpx;
+    height: 100rpx;
+    display: flex;
+}
+
+.point-left {
+    width: 96rpx;
+    height: 96rpx;
+    margin: 2rpx;
+}
+
+.point-num {
+    width: 100rpx;
+    height: 50rpx;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 36rpx;
+    margin-top: 30rpx;
+    align-items: center;
+    font-weight: 700;
+}
+
+.point-add {
+    width: 44rpx;
+    height: 46rpx;
+    color: #ffffff;
+    justify-content: center;
+    font-size: 28rpx;
+    margin-top: 2rpx;
+    align-items: center;
+}
+
+.flex-wrp {
+    height: 80rpx;
+    display: flex;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    margin-top: 15rpx;
+}
+
+.flex-item {
+    width: 80rpx;
+    height: 85rpx;
+    display: flex;
+    margin: 5rpx;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    color: #842800;
+    background-color: #e0b77a;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 4rpx;
+    border-color: #fff6d8;
+}
+
+.bottom {
+    width: 700rpx;
+    height: 170rpx;
+    margin-top: 32rpx;
+    padding: 8rpx;
+    background-color: #ffffff;
+}
+
+.bottom-item {
+    width: 40%;
+    height: 90rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40rpx;
+    font-weight: 600;
+    margin: 1rpx;
+    background-color: #d3bc91;
+}
+
+.bottom_ad {
+    width: 100%;
+    height: 180rpx;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    color: #ff0000;
+    background-color: #efb983;
+}
+
+.flex-group {
+    width: 100%;
+    height: 280rpx;
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

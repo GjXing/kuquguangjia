@@ -1,0 +1,9 @@
+<view class="progress-bar" style="transform:rotate({{rot}}deg);">
+    <view class="progress-bar-background" hidden="{{!showBack}}" style="border-radius:{{backRadius}}rpx;background-color:{{backColor}};border:{{borderWidth}}rpx solid {{borderColor}};box-sizing:content-box;"></view>
+    <view style="position: absolute;width:100%;height:100%;top:{{borderWidth}}rpx;left: {{borderWidth}}rpx;border-radius:{{foreRadius}}rpx;overflow: hidden">
+        <view hidden="{{!showMid}}" style="position: absolute;top:{{midSpace}}rpx; left:{{midSpace}}rpx;right: {{midSpace}}rpx;bottom:{{midSpace}}rpx;margin:auto"></view>
+        <view hidden="{{!showFore}}" style="position: absolute;top:{{foreSpace}}rpx; left:{{foreSpace}}rpx;right: {{foreSpace}}rpx;bottom:{{foreSpace}}rpx;margin:auto">
+            <view class="progress-bar-fore" style="background-color:{{foreColor}};width:{{foreWidth}}%; height:{{foreHeight}}%"></view>
+        </view>
+    </view>
+</view>

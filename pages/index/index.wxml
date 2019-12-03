@@ -1,0 +1,23 @@
+<view class="page">
+    <view class="userinfo">
+        <image backgroundSize="cover" class="userinfo-avatar" src="{{avatarUrl}}"></image>
+        <text class="userinfo-nickname">{{nickname}}</text>
+    </view>
+    <view style="display:flex;margin-top:88rpx;">
+        <button bindtap="start" class="btn_start" wx:if="{{!authorize}}">看图猜成语</button>
+        <button bindgetuserinfo="authorizeStart" class="btn_start" openType="getUserInfo" wx:if="{{authorize}}">
+            看图猜成语
+        </button>
+        <button bindtap="sel" class="btn_sel">历史成就</button>
+    </view>
+    <view>
+        <button bindtap="jielong" class="btn_jielong">成语接龙大挑战</button>
+    </view>
+    <view style="height:20rpx;width:700rpx;"></view>
+    <ad adTheme="white" adType="video" unitId="{{adunit_sp}}"></ad>
+</view>
+<view catchtap="closeIFav" class="ifav" wx:if="{{showIfa}}">
+    添加到【我的桌面】, 方便下次使用
+    <view class="ifd">▲</view>
+</view>
+<button class="share_yuan" openType="share">分享</button>

@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "navigationBarTitleText": "脑筋急转弯"
+}

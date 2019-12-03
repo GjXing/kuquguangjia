@@ -1,0 +1,61 @@
+<form bindsubmit="formSubmit" reportSubmit="true">
+    <view class="xyy-body">
+        <view class="xyy-hy">
+            <view class="xyy-title">休闲益智</view>
+            <view class="xyy-ul">
+                <navigator appId="wxff5d308964ef7249" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-navlist-copy"></text>
+                    <view class="xyy-li-title">成语接龙</view>
+                </navigator>
+                <navigator appId="wxbb67ae4ec3038880" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-calendar-check-o"></text>
+                    <view class="xyy-li-title">喝酒神器</view>
+                </navigator>
+                <navigator appId="wx92e4a9ae77872808" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-915caidan_ziliao"></text>
+                    <view class="xyy-li-title">聚会神器</view>
+                </navigator>
+            </view>
+        </view>
+        <view class="xyy-hy xyy-gj">
+            <view class="xyy-title">学习必备</view>
+            <view class="xyy-ul">
+                <navigator appId="wxea082c8f72c60cbe" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-dianduqi"></text>
+                    <view class="xyy-li-title">万能翻译</view>
+                </navigator>
+                <navigator appId="wxfaf586be28a0178e" class="xyy-li dot-d" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-ictranslated"></text>
+                    <view class="xyy-li-title">励志语录</view>
+                </navigator>
+                <navigator appId="wxeefb96ae52ba19af" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-navlist-copy"></text>
+                    <view class="xyy-li-title">传图识字</view>
+                </navigator>
+            </view>
+        </view>
+        <view class="xyy-hy">
+            <view class="xyy-title">娱乐搞笑</view>
+            <view class="xyy-ul">
+                <navigator appId="wxe89e93fa7ba60dfc" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-abcsousuocixiangqing"></text>
+                    <view class="xyy-li-title">恶搞神器</view>
+                </navigator>
+                <navigator appId="wx5ea9653177786b90" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-pinglun"></text>
+                    <view class="xyy-li-title">成语状元</view>
+                </navigator>
+                <navigator appId="wx38571c709c5a9efa" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-fayin"></text>
+                    <view class="xyy-li-title baqian">装逼神器</view>
+                </navigator>
+                <navigator appId="wx2828e68167ecece5" class="xyy-li" hoverClass="xyy-li-hover" openType="navigate" target="miniProgram">
+                    <text class="fyiconfont icon-tangxueyuan"></text>
+                    <view class="xyy-li-title">手持弹幕</view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <ad unitId="{{adunit}}"></ad>
+    <view style="height:20rpx;width:700rpx;"></view>
+</form>

@@ -1,0 +1,158 @@
+@import "../fight/fightPage.wxss";
+
+.prepare {
+    width: 100%;
+    height: 100%;
+}
+
+.prepare .btn_pipei {
+    width: 300rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 32rpx;
+    align-content: center;
+    text-align: center;
+    background-color: #b28850;
+    color: #210a00;
+    font-weight: 700;
+}
+
+.prepare .btn_yaoqin {
+    width: 300rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 32rpx;
+    align-content: center;
+    text-align: center;
+    background-color: #b28850;
+    color: #210a00;
+    font-weight: 700;
+}
+
+.prepare .fangqi {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 100rpx;
+    margin-top: 32rpx;
+    align-content: center;
+    border-radius: 10rpx 10rpx 10rpx 10rpx;
+    text-align: center;
+    background-color: #f5e7b4;
+    width: 300rpx;
+    font-weight: 700;
+}
+
+.prepare .left_diban {
+    position: absolute;
+    top: 10rpx;
+    left: 50rpx;
+}
+
+.prepare .right_diban {
+    position: absolute;
+    top: 10rpx;
+    right: 50rpx;
+}
+
+.prepare .pipei {
+    justify-content: center;
+    margin-top: 900rpx;
+}
+
+.prepare .left_info {
+    position: absolute;
+    top: 100rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepare .right_info {
+    position: absolute;
+    right: 0rpx;
+    top: 100rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prepare .duizhan {
+    position: absolute;
+    top: 210rpx;
+    left: 39%;
+}
+
+.prepare .userinfo-avatar {
+    position: absolute;
+    width: 108rpx;
+    height: 108rpx;
+    top: 60rpx;
+    left: 145rpx;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.prepare .userinfo-avatarb {
+    position: absolute;
+    width: 108rpx;
+    height: 108rpx;
+    top: 60rpx;
+    right: 145rpx;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.prepare .userinfo-avatarc {
+    position: absolute;
+    width: 108rpx;
+    height: 108rpx;
+    top: 60rpx;
+    right: 145rpx;
+    background-color: #9d6828;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.prepare .xunzhao {
+    color: #864719;
+    top: 650rpx;
+    font-weight: 900;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-120rpx);
+}
+
+.prepare .xunzhaoa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #864719;
+    top: 650rpx;
+    font-weight: 900;
+    position: fixed;
+}
+
+.prepare .userinfo-nickname {
+    font-size: 30rpx;
+    margin-top: 200rpx;
+    font-weight: 900;
+    z-index: 10;
+}
+
+.prepare .daply {
+    width: 200rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 100rpx;
+}
+
+.prepare .daplyb {
+    width: 200rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 100rpx;
+}

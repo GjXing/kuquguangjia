@@ -1,0 +1,2 @@
+<image src="{{src}}" style="width:{{width}};height:{{height}}" wx:if="{{!IsAspectFit&&src!=''}}"></image>
+<image binderror="OnError" bindload="OnLoad" mode="aspectFit" src="{{src}}" style="{{width!=''?'width:'+width+';':''}}{{height!=''?'height:'+height+';':''}}" wx:if="{{IsAspectFit&&src!=''}}"></image>

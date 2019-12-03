@@ -1,0 +1,95 @@
+@import "../../wuBaseWxss/3.wxss";
+
+page {
+    background-size: cover;
+}
+
+.container-index {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.userinfo {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 700rpx;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 2px solid #e5a73b;
+}
+
+.userinfo-avatar {
+    width: 112rpx;
+    height: 112rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+    border: 4rpx solid #e5a73b;
+}
+
+.userinfo-nickname {
+    color: #000000;
+    font-size: 32rpx;
+    font-weight: bold;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+.gotoBtn {
+    text-align: center;
+    width: 420rpx;
+    height: 130rpx;
+    border-radius: 10px;
+    margin: 20px;
+    line-height: 128rpx;
+}
+
+.btn-1 {
+    background-color: #e5a73b;
+    border: 2px solid #b98730;
+}
+
+.btn-2 {
+    background-color: #4db0cd;
+    border: 2px solid #4097b0;
+}
+
+.btn-3 {
+    background-color: #d68bcc;
+    border: 2px solid #c080b7;
+}
+
+.btn-4 {
+    background-color: #e16756;
+    border: 2px solid #dc513e;
+}
+
+.btn-5 {
+    background-color: #7de156;
+    border: 2px solid #69bf47;
+}
+
+.btn-6 {
+    background-color: #ee5c8d;
+    border: 2px solid #b4456a;
+}
+
+.btn-7 {
+    background-color: #e16756;
+    border: 2px solid #dc513e;
+}
+
+.gotoBtn text {
+    margin: 1rpx;
+    font-size: 20px;
+    line-height: 90rpx;
+    color: #eff9e0;
+    font-weight: bold;
+}

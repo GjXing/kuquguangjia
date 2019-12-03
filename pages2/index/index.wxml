@@ -1,0 +1,44 @@
+<page>
+    <view catchtouchmove="true" class="container-index">
+        <view class="userinfo">
+            <button bindgetuserinfo="getUserInfo" openType="getUserInfo" wx:if="{{!hasUserInfo&&canIUse}}">
+                获取头像昵称
+            </button>
+            <block wx:else>
+                <view style="float: left; display: block;margin-left: 30rpx;">
+                    <image class="userinfo-avatar" mode="cover" src="{{userInfo.avatarUrl}}"></image>
+                </view>
+                <view style="float: left;display: block;width: 400rpx;">
+                    <view style="margin-top: 20rpx;">
+                        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+                    </view>
+                    <progress active percent="{{exp_percent}}" strokeWidth="12"></progress>
+                    <text class="userinfo-nickname">称号：{{grade_title}}</text>
+                </view>
+            </block>
+        </view>
+        <view class="typePanel">
+            <view bindtap="gotoGame" class="gotoBtn .btn-2" data-pos="1" data-type="1">
+                <text>1-200关</text>
+            </view>
+            <view bindtap="gotoGame" class="gotoBtn .btn-1" data-pos="2" data-type="2">
+                <text>201-400关</text>
+            </view>
+            <view bindtap="gotoGame" class="gotoBtn .btn-3" data-pos="3" data-type="3">
+                <text>401-600关</text>
+            </view>
+            <view bindtap="gotoGame" class="gotoBtn .btn-4" data-pos="4" data-type="4">
+                <text>601-800关</text>
+            </view>
+            <view bindtap="gotoGame" class="gotoBtn .btn-5" data-pos="5" data-type="5">
+                <text>801-1000关</text>
+            </view>
+        </view>
+    </view>
+    <button class="share_yuan" openType="share">分享</button>
+    <view catchtap="closeIFav" class="ifav" wx:if="{{showIfa}}">
+        添加到【我的桌面】, 方便下次使用
+        <view class="ifd">▲</view>
+    </view>
+</page>
+<ad unitId="{{adunit}}"></ad>

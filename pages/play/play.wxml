@@ -1,0 +1,125 @@
+<import src="../../component/CusToast/CusToast.wxml"></import>
+<template is="toast" data="{{..._toast_}}"></template>
+<view class="page">
+    <view class="group">
+        <view class="up-group" style="background-image: url('http://hyimages.oss-cn-beijing.aliyuncs.com/ccy/bj-hl/tubj.png');background-size: 100% 100%;">
+            <view class="header" style="background-image: url('http://hyimages.oss-cn-beijing.aliyuncs.com/ccy/bj-hl/tou.png');background-size: 100% 100%;">
+                <view class="header-content">{{cur_turn_level}}</view>
+            </view>
+            <view class="main-img">
+                <image class="main-img-src" mode="aspectFit" src="{{main_img_url}}"></image>
+            </view>
+            <view class="helper">
+                <button bindtap="showTips" class="helper-tips">提 示</button>
+                <button bindtap="addPoint" class="helper-free" wx:if="{{pointAdd}}">更多金币</button>
+                <button class="helper-free" openType="share" wx:else>求 助</button>
+                <button class="helper-share" openType="share" wx:if="{{!isGG}}">加金币</button>
+                <button bindtap="addCoins" class="helper-share" wx:if="{{isGG}}">加金币</button>
+            </view>
+        </view>
+    </view>
+    <view class="mid-group">
+        <view class="mid-group-1">
+            <view class="center-group">
+                <button bindtap="clickAns" class="ans-items" data-item="0" style="background:{{ans[0]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[0] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="1" style="background:{{ans[1]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[1] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="2" style="background:{{ans[2]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[2] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="3" style="background:{{ans[3]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[3] ]}}
+                </button>
+            </view>
+            <view bindtap="getPoint" class="mid-right-group">
+                <image class="point-left" src="../../imgs/comm/jiangjinbi.png"></image>
+                <view class="point-num">{{total_point}}</view>
+            </view>
+        </view>
+    </view>
+    <view class="flex-group">
+        <view class="flex-wrp" style="flex-direction:row;">
+            <button bindtap="clickItem" class="flex-item" data-item="0" style="visibility:{{!array_show[0]?'hidden':'show'}}">
+                {{array[0]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="1" style="visibility:{{!array_show[1]?'hidden':'show'}}">
+                {{array[1]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="2" style="visibility:{{!array_show[2]?'hidden':'show'}}">
+                {{array[2]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="3" style="visibility:{{!array_show[3]?'hidden':'show'}}">
+                {{array[3]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="4" style="visibility:{{!array_show[4]?'hidden':'show'}}">
+                {{array[4]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="5" style="visibility:{{!array_show[5]?'hidden':'show'}}">
+                {{array[5]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="6" style="visibility:{{!array_show[6]?'hidden':'show'}}">
+                {{array[6]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="7" style="visibility:{{!array_show[7]?'hidden':'show'}}">
+                {{array[7]}}
+            </button>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+            <button bindtap="clickItem" class="flex-item" data-item="8" style="visibility:{{!array_show[8]?'hidden':'show'}}">
+                {{array[8]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="9" style="visibility:{{!array_show[9]?'hidden':'show'}}">
+                {{array[9]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="10" style="visibility:{{!array_show[10]?'hidden':'show'}}">
+                {{array[10]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="11" style="visibility:{{!array_show[11]?'hidden':'show'}}">
+                {{array[11]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="12" style="visibility:{{!array_show[12]?'hidden':'show'}}">
+                {{array[12]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="13" style="visibility:{{!array_show[13]?'hidden':'show'}}">
+                {{array[13]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="14" style="visibility:{{!array_show[14]?'hidden':'show'}}">
+                {{array[14]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="15" style="visibility:{{!array_show[15]?'hidden':'show'}}">
+                {{array[15]}}
+            </button>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+            <button bindtap="clickItem" class="flex-item" data-item="16" style="visibility:{{!array_show[16]?'hidden':'show'}}">
+                {{array[16]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="17" style="visibility:{{!array_show[17]?'hidden':'show'}}">
+                {{array[17]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="18" style="visibility:{{!array_show[18]?'hidden':'show'}}">
+                {{array[18]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="19" style="visibility:{{!array_show[19]?'hidden':'show'}}">
+                {{array[19]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="20" style="visibility:{{!array_show[20]?'hidden':'show'}}">
+                {{array[20]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="21" style="visibility:{{!array_show[21]?'hidden':'show'}}">
+                {{array[21]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="22" style="visibility:{{!array_show[22]?'hidden':'show'}}">
+                {{array[22]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="23" style="visibility:{{!array_show[23]?'hidden':'show'}}">
+                {{array[23]}}
+            </button>
+        </view>
+    </view>
+    <view style="height:20rpx;width:700rpx;"></view>
+    <ad unitId="{{adunit}}"></ad>
+</view>

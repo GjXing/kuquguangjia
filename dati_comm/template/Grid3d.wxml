@@ -1,0 +1,7 @@
+<template name="Grid3d">
+    <view style="width:{{grid.w}}rpx;height:{{grid.h}}rpx;">
+        <image src="{{grid.img[0]}}" style="width:{{grid.w}}rpx;height:{{grid.split[0]}}rpx;position:absolute;left:0rpx;top:0rpx;"></image>
+        <image src="{{grid.img[1]}}" style="width:{{grid.w}}rpx;height:{{grid.split[1]}}rpx;position:absolute;left:0rpx;top:{{grid.split[0]}}rpx;"></image>
+        <image src="{{grid.img[2]}}" style="width:{{grid.w}}rpx;height:{{grid.split[2]}}rpx;position:absolute;left:0rpx;top:{{grid.split[0]+grid.split[1]-1}}rpx;"></image>
+    </view>
+</template>

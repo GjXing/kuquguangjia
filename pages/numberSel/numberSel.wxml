@@ -1,0 +1,15 @@
+<view class="page">
+    <scroll-view scrollY="true" style="height: 100%;width:92%">
+        <view wx:for="{{array}}" wx:for-item="i">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[0]}}" style="background-color:{{level>=i[0]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[0]?'hidden':'show'}}">{{i[0]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[1]}}" style="background-color:{{level>=i[1]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[1]?'hidden':'show'}}">{{i[1]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[2]}}" style="background-color:{{level>=i[2]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[2]?'hidden':'show'}}">{{i[2]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[3]}}" style="background-color:{{level>=i[3]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[3]?'hidden':'show'}}">{{i[3]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[4]}}" style="background-color:{{level>=i[4]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[4]?'hidden':'show'}}">{{i[4]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[5]}}" style="background-color:{{level>=i[5]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[5]?'hidden':'show'}}">{{i[5]}}</button>
+                <button bindtap="clickItem" class="flex-item" data-item="{{i[6]}}" style="background-color:{{level>=i[6]?nor:unlock}};background-size: 100% 100%;visibility:{{count<i[6]?'hidden':'show'}}">{{i[6]}}</button>
+            </view>
+        </view>
+    </scroll-view>
+</view>

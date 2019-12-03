@@ -1,0 +1,467 @@
+<view class="page">
+    <view class="up_page">
+        <view class="flex_wrp_content">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="0" style="background:{{array_url[0]}};">
+                    {{array[0]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="1" style="background:{{array_url[1]}};">
+                    {{array[1]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="2" style="background:{{array_url[2]}};">
+                    {{array[2]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="3" style="background:{{array_url[3]}};">
+                    {{array[3]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="4" style="background:{{array_url[4]}};">
+                    {{array[4]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="5" style="background:{{array_url[5]}};">
+                    {{array[5]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="6" style="background:{{array_url[6]}};">
+                    {{array[6]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="7" style="background:{{array_url[7]}};">
+                    {{array[7]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="8" style="background:{{array_url[8]}};">
+                    {{array[8]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="9" style="background:{{array_url[9]}};">
+                    {{array[9]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="10" style="background:{{array_url[10]}};">
+                    {{array[10]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="11" style="background:{{array_url[11]}};">
+                    {{array[11]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="12" style="background:{{array_url[12]}};">
+                    {{array[12]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="13" style="background:{{array_url[13]}};">
+                    {{array[13]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="14" style="background:{{array_url[14]}};">
+                    {{array[14]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="15" style="background:{{array_url[15]}};">
+                    {{array[15]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="16" style="background:{{array_url[16]}};">
+                    {{array[16]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="17" style="background:{{array_url[17]}};">
+                    {{array[17]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="18" style="background:{{array_url[18]}};">
+                    {{array[18]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="19" style="background:{{array_url[19]}};">
+                    {{array[19]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="20" style="background:{{array_url[20]}};">
+                    {{array[20]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="21" style="background:{{array_url[21]}};">
+                    {{array[21]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="22" style="background:{{array_url[22]}};">
+                    {{array[22]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="23" style="background:{{array_url[23]}};">
+                    {{array[23]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="24" style="background:{{array_url[24]}};">
+                    {{array[24]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="25" style="background:{{array_url[25]}};">
+                    {{array[25]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="26" style="background:{{array_url[26]}};">
+                    {{array[26]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="27" style="background:{{array_url[27]}};">
+                    {{array[27]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="28" style="background:{{array_url[28]}};">
+                    {{array[28]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="29" style="background:{{array_url[29]}};">
+                    {{array[29]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="30" style="background:{{array_url[30]}};">
+                    {{array[30]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="31" style="background:{{array_url[31]}};">
+                    {{array[31]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="32" style="background:{{array_url[32]}};">
+                    {{array[32]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="33" style="background:{{array_url[33]}};">
+                    {{array[33]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="34" style="background:{{array_url[34]}};">
+                    {{array[34]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="35" style="background:{{array_url[35]}};">
+                    {{array[35]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="36" style="background:{{array_url[36]}};">
+                    {{array[36]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="37" style="background:{{array_url[37]}};">
+                    {{array[37]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="38" style="background:{{array_url[38]}};">
+                    {{array[38]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="39" style="background:{{array_url[39]}};">
+                    {{array[39]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="40" style="background:{{array_url[40]}};">
+                    {{array[40]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="41" style="background:{{array_url[41]}};">
+                    {{array[41]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="42" style="background:{{array_url[42]}};">
+                    {{array[42]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="43" style="background:{{array_url[43]}};">
+                    {{array[43]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="44" style="background:{{array_url[44]}};">
+                    {{array[44]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="45" style="background:{{array_url[45]}};">
+                    {{array[45]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="46" style="background:{{array_url[46]}};">
+                    {{array[46]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="47" style="background:{{array_url[47]}};">
+                    {{array[47]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="48" style="background:{{array_url[48]}};">
+                    {{array[48]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="49" style="background:{{array_url[49]}};">
+                    {{array[49]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="50" style="background:{{array_url[50]}};">
+                    {{array[50]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="51" style="background:{{array_url[51]}};">
+                    {{array[51]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="52" style="background:{{array_url[52]}};">
+                    {{array[52]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="53" style="background:{{array_url[53]}};">
+                    {{array[53]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="54" style="background:{{array_url[54]}};">
+                    {{array[54]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="55" style="background:{{array_url[55]}};">
+                    {{array[55]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="56" style="background:{{array_url[56]}};">
+                    {{array[56]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="57" style="background:{{array_url[57]}};">
+                    {{array[57]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="58" style="background:{{array_url[58]}};">
+                    {{array[58]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="59" style="background:{{array_url[59]}};">
+                    {{array[59]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="60" style="background:{{array_url[60]}};">
+                    {{array[60]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="61" style="background:{{array_url[61]}};">
+                    {{array[61]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="62" style="background:{{array_url[62]}};">
+                    {{array[62]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="63" style="background:{{array_url[63]}};">
+                    {{array[63]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="64" style="background:{{array_url[64]}};">
+                    {{array[64]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="65" style="background:{{array_url[65]}};">
+                    {{array[65]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="66" style="background:{{array_url[66]}};">
+                    {{array[66]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="67" style="background:{{array_url[67]}};">
+                    {{array[67]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="68" style="background:{{array_url[68]}};">
+                    {{array[68]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="69" style="background:{{array_url[69]}};">
+                    {{array[69]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="70" style="background:{{array_url[70]}};">
+                    {{array[70]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="71" style="background:{{array_url[71]}};">
+                    {{array[71]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="72" style="background:{{array_url[72]}};">
+                    {{array[72]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="73" style="background:{{array_url[73]}};">
+                    {{array[73]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="74" style="background:{{array_url[74]}};">
+                    {{array[74]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="75" style="background:{{array_url[75]}};">
+                    {{array[75]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="76" style="background:{{array_url[76]}};">
+                    {{array[76]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="77" style="background:{{array_url[77]}};">
+                    {{array[77]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="78" style="background:{{array_url[78]}};">
+                    {{array[78]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="79" style="background:{{array_url[79]}};">
+                    {{array[79]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="80" style="background:{{array_url[80]}};">
+                    {{array[80]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="81" style="background:{{array_url[81]}};">
+                    {{array[81]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="82" style="background:{{array_url[82]}};">
+                    {{array[82]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="83" style="background:{{array_url[83]}};">
+                    {{array[83]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="84" style="background:{{array_url[84]}};">
+                    {{array[84]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="85" style="background:{{array_url[85]}};">
+                    {{array[85]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="86" style="background:{{array_url[86]}};">
+                    {{array[86]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="87" style="background:{{array_url[87]}};">
+                    {{array[87]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="88" style="background:{{array_url[88]}};">
+                    {{array[88]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="89" style="background:{{array_url[89]}};">
+                    {{array[89]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickItem" class="flex-item" data-item="90" style="background:{{array_url[90]}};">
+                    {{array[90]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="91" style="background:{{array_url[91]}};">
+                    {{array[91]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="92" style="background:{{array_url[92]}};">
+                    {{array[92]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="93" style="background:{{array_url[93]}};">
+                    {{array[93]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="94" style="background:{{array_url[94]}};">
+                    {{array[94]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="95" style="background:{{array_url[95]}};">
+                    {{array[95]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="96" style="background:{{array_url[96]}};">
+                    {{array[96]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="97" style="background:{{array_url[97]}};">
+                    {{array[97]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="98" style="background:{{array_url[98]}};">
+                    {{array[98]}}
+                </button>
+                <button bindtap="clickItem" class="flex-item" data-item="99" style="background:{{array_url[99]}};">
+                    {{array[99]}}
+                </button>
+            </view>
+        </view>
+    </view>
+    <view class="helper">
+        <view bindtap="getPoint" class="mid-right">
+            <image class="point-left" src="../../imgs/comm/jiangjinbi.png"></image>
+            <view class="point-num">{{total_point}}</view>
+        </view>
+        <button bindtap="showTips" class="helper-tips">提 示</button>
+        <button bindtap="addCoins" class="helper-share" wx:if="{{isGG}}">加金币</button>
+        <button class="helper-share" openType="share" wx:if="{{!isGG}}">加金币</button>
+    </view>
+    <view class="ans_sel_wrp">
+        <view style="height: 270rpx;">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickAns" class="flex-item" data-item="0" style="visibility:{{!array_show[0]?'hidden':'show'}}">
+                    {{cur_sel_array[0]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="1" style="visibility:{{!array_show[1]?'hidden':'show'}}">
+                    {{cur_sel_array[1]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="2" style="visibility:{{!array_show[2]?'hidden':'show'}}">
+                    {{cur_sel_array[2]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="3" style="visibility:{{!array_show[3]?'hidden':'show'}}">
+                    {{cur_sel_array[3]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="4" style="visibility:{{!array_show[4]?'hidden':'show'}}">
+                    {{cur_sel_array[4]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="5" style="visibility:{{!array_show[5]?'hidden':'show'}}">
+                    {{cur_sel_array[5]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="6" style="visibility:{{!array_show[6]?'hidden':'show'}}">
+                    {{cur_sel_array[6]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="7" style="visibility:{{!array_show[7]?'hidden':'show'}}">
+                    {{cur_sel_array[7]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="8" style="visibility:{{!array_show[8]?'hidden':'show'}}">
+                    {{cur_sel_array[8]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="9" style="visibility:{{!array_show[9]?'hidden':'show'}}">
+                    {{cur_sel_array[9]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickAns" class="flex-item" data-item="10" style="visibility:{{!array_show[10]?'hidden':'show'}}">
+                    {{cur_sel_array[10]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="11" style="visibility:{{!array_show[11]?'hidden':'show'}}">
+                    {{cur_sel_array[11]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="12" style="visibility:{{!array_show[12]?'hidden':'show'}}">
+                    {{cur_sel_array[12]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="13" style="visibility:{{!array_show[13]?'hidden':'show'}}">
+                    {{cur_sel_array[13]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="14" style="visibility:{{!array_show[14]?'hidden':'show'}}">
+                    {{cur_sel_array[14]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="15" style="visibility:{{!array_show[15]?'hidden':'show'}}">
+                    {{cur_sel_array[15]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="16" style="visibility:{{!array_show[16]?'hidden':'show'}}">
+                    {{cur_sel_array[16]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="17" style="visibility:{{!array_show[17]?'hidden':'show'}}">
+                    {{cur_sel_array[17]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="18" style="visibility:{{!array_show[18]?'hidden':'show'}}">
+                    {{cur_sel_array[18]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="19" style="visibility:{{!array_show[19]?'hidden':'show'}}">
+                    {{cur_sel_array[19]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickAns" class="flex-item" data-item="20" style="visibility:{{!array_show[20]?'hidden':'show'}}">
+                    {{cur_sel_array[20]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="21" style="visibility:{{!array_show[21]?'hidden':'show'}}">
+                    {{cur_sel_array[21]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="22" style="visibility:{{!array_show[22]?'hidden':'show'}}">
+                    {{cur_sel_array[22]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="23" style="visibility:{{!array_show[23]?'hidden':'show'}}">
+                    {{cur_sel_array[23]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="24" style="visibility:{{!array_show[24]?'hidden':'show'}}">
+                    {{cur_sel_array[24]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="25" style="visibility:{{!array_show[25]?'hidden':'show'}}">
+                    {{cur_sel_array[25]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="26" style="visibility:{{!array_show[26]?'hidden':'show'}}">
+                    {{cur_sel_array[26]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="27" style="visibility:{{!array_show[27]?'hidden':'show'}}">
+                    {{cur_sel_array[27]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="28" style="visibility:{{!array_show[28]?'hidden':'show'}}">
+                    {{cur_sel_array[28]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="29" style="visibility:{{!array_show[29]?'hidden':'show'}}">
+                    {{cur_sel_array[29]}}
+                </button>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <button bindtap="clickAns" class="flex-item" data-item="30" style="visibility:{{!array_show[30]?'hidden':'show'}}">
+                    {{cur_sel_array[30]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="31" style="visibility:{{!array_show[31]?'hidden':'show'}}">
+                    {{cur_sel_array[31]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="32" style="visibility:{{!array_show[32]?'hidden':'show'}}">
+                    {{cur_sel_array[32]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="33" style="visibility:{{!array_show[33]?'hidden':'show'}}">
+                    {{cur_sel_array[33]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="34" style="visibility:{{!array_show[34]?'hidden':'show'}}">
+                    {{cur_sel_array[34]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="35" style="visibility:{{!array_show[35]?'hidden':'show'}}">
+                    {{cur_sel_array[35]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="36" style="visibility:{{!array_show[36]?'hidden':'show'}}">
+                    {{cur_sel_array[36]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="37" style="visibility:{{!array_show[37]?'hidden':'show'}}">
+                    {{cur_sel_array[37]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="38" style="visibility:{{!array_show[38]?'hidden':'show'}}">
+                    {{cur_sel_array[38]}}
+                </button>
+                <button bindtap="clickAns" class="flex-item" data-item="39" style="visibility:{{!array_show[39]?'hidden':'show'}}">
+                    {{cur_sel_array[39]}}
+                </button>
+            </view>
+        </view>
+    </view>
+</view>

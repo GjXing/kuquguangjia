@@ -1,0 +1,189 @@
+@import "../fight/fightPage.wxss";
+
+.overFight {
+    width: 100%;
+    height: 100%;
+}
+
+.overFight .userinfo-avatara {
+    position: absolute;
+    width: 78rpx;
+    height: 78rpx;
+    border-radius: 50%;
+    z-index: 10;
+    top: 38rpx;
+    left: 26rpx;
+}
+
+.overFight .imgs_left {
+    position: absolute;
+    top: -220rpx;
+    left: 120rpx;
+}
+
+.overFight .imgs_right {
+    position: absolute;
+    top: -190rpx;
+    right: 140rpx;
+}
+
+.overFight .userinfo-avatarb {
+    position: absolute;
+    width: 78rpx;
+    height: 78rpx;
+    border-radius: 50%;
+    z-index: 10;
+    top: 38rpx;
+    right: 25rpx;
+}
+
+.overFight .left_info {
+    position: absolute;
+    top: 100rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+}
+
+.overFight .diban_right {
+    position: absolute;
+    right: 0rpx;
+}
+
+.overFight .diban_left {
+    position: absolute;
+    left: 0rpx;
+}
+
+.overFight .userinfo-nicknamea {
+    position: absolute;
+    font-size: 23rpx;
+    z-index: 10;
+    width: 110rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 120rpx;
+    left: 10rpx;
+}
+
+.overFight .jifena {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 202rpx;
+    position: absolute;
+    color: #af7e3d;
+    font-size: 50rpx;
+    z-index: 100;
+    left: 108rpx;
+    font-weight: 900;
+    top: 40rpx;
+}
+
+.overFight .jifenb {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 202rpx;
+    position: absolute;
+    color: #af7e3d;
+    font-size: 50rpx;
+    z-index: 100;
+    font-weight: 900;
+    right: 106rpx;
+    top: 40rpx;
+}
+
+.overFight .daduia {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: #af7e3d;
+    font-size: 24rpx;
+    z-index: 100;
+    width: 202rpx;
+    left: 108rpx;
+    top: 117rpx;
+}
+
+.overFight .daduib {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: #af7e3d;
+    font-size: 24rpx;
+    z-index: 100;
+    top: 117rpx;
+    right: 106rpx;
+    width: 200rpx;
+}
+
+.overFight .img_sl {
+    position: absolute;
+    top: 280rpx;
+    left: 53%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.overFight .img_sb {
+    position: absolute;
+    top: 250rpx;
+    left: 53%;
+    transform: translateX(-50%);
+}
+
+.overFight .userinfo-nicknameb {
+    position: absolute;
+    font-size: 23rpx;
+    z-index: 10;
+    width: 110rpx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 10rpx;
+    top: 120rpx;
+}
+
+.overFight .right_info {
+    position: absolute;
+    right: 0rpx;
+    top: 100rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overFight .btn_pipeia {
+    width: 300rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 32rpx;
+    align-content: center;
+    text-align: center;
+    background-color: #b28850;
+    color: #210a00;
+    z-index: 100;
+    font-weight: 700;
+}
+
+.overFight .btn_pipeib {
+    width: 300rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin-top: 32rpx;
+    align-content: center;
+    text-align: center;
+    background-color: #b28850;
+    color: #210a00;
+    font-weight: 700;
+}
+
+.overFight .pipeia {
+    justify-content: center;
+    margin-top: 700rpx;
+}

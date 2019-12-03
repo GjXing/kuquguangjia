@@ -1,0 +1,57 @@
+<image class="bg-img" src="http://xcxcy.oss-cn-hangzhou.aliyuncs.com/cycck/icon/cy_beijing.jpg"></image>
+<scroll-view scrollY class="scroll-box">
+    <view class="page" style="background:none;">
+        <view style="height:880rpx;">
+            <view style="margin:20rpx;display:flex">
+                <view class="ktccy">看图猜成语</view>
+                <view bindtap="cyjl" class="cyjl">成语接龙</view>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <view bindtap="clickItem" class="flex-item" data-item="1">
+                    <view class="item" style="background-image:url({{level_url[0]}});background-size:100% 100%;">
+                        <view class="numbers" style="color:{{level_color[0]}}">1</view>
+                    </view>
+                    <view class="xth">第1期</view>
+                    <view class="tips" style="color:{{text_color[0]}}">{{text_number[0]}}</view>
+                </view>
+                <view bindtap="clickItem" class="flex-item" data-item="2">
+                    <view class="item" style="background-image:url({{level_url[1]}});background-size:100% 100%">
+                        <view class="numbers" style="color:{{level_color[1]}}">2</view>
+                    </view>
+                    <view class="xth">第2期</view>
+                    <view class="tips" style="color:{{text_color[1]}}">{{text_number[1]}}</view>
+                </view>
+                <view bindtap="clickItem" class="flex-item" data-item="3">
+                    <view class="item" style="background-image:url({{level_url[2]}});background-size:100% 100%">
+                        <view class="numbers" style="color:{{level_color[2]}}">3</view>
+                    </view>
+                    <view class="xth">第3期</view>
+                    <view class="tips" style="color:{{text_color[2]}}">{{text_number[2]}}</view>
+                </view>
+            </view>
+            <view class="flex-wrp" style="flex-direction:row;">
+                <view bindtap="clickItem" class="flex-item" data-item="4">
+                    <view class="item" style="background-image:url({{level_url[3]}});background-size:100% 100%;">
+                        <view class="numbers" style="color:{{level_color[3]}}">4</view>
+                    </view>
+                    <view class="xth">第4期</view>
+                    <view class="tips" style="color:{{text_color[3]}}">{{text_number[3]}}</view>
+                </view>
+                <view bindtap="clickItem" class="flex-item" data-item="5">
+                    <view class="item" style="background-image:url({{level_url[4]}});background-size:100% 100%">
+                        <view class="numbers" style="color:{{level_color[4]}}">5</view>
+                    </view>
+                    <view class="xth">第5期</view>
+                    <view class="tips" style="color:{{text_color[4]}}">{{text_number[4]}}</view>
+                </view>
+                <view bindtap="clickItem" class="flex-item" data-item="6">
+                    <view class="item" style="background-image:url({{level_url[5]}});background-size:100% 100%">
+                        <view class="numbers" style="color:{{level_color[5]}}">6</view>
+                    </view>
+                    <view class="xth">第6期</view>
+                    <view class="tips" style="color:{{text_color[5]}}">{{text_number[5]}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

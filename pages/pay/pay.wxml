@@ -1,0 +1,44 @@
+<view class="page">
+    <view class="header">
+        <view class="header_up"></view>
+        <image class="header_btm" src="../../images/shang.png"></image>
+    </view>
+    <view class="text">赞赏可获金币哦，活动期间奖励双倍</view>
+    <view class="item_group">
+        <view class="item_up">
+            <view bindtap="clickItem" class="item" data-item="{{one}}">
+                <view class="item_num">{{one}}</view>
+                <view class="yuan">元</view>
+                <view class="bottom">{{one_point}}</view>
+            </view>
+            <view bindtap="clickItem" class="item" data-item="{{two}}">
+                <view class="item_num">{{two}}</view>
+                <view class="yuan">元</view>
+                <view class="bottom">{{two_point}}</view>
+            </view>
+            <view bindtap="clickItem" class="item" data-item="10">
+                <view class="item_num">10</view>
+                <view class="yuan">元</view>
+                <view class="bottom">3600x2</view>
+            </view>
+        </view>
+        <view class="item_up">
+            <view bindtap="clickItem" class="item" data-item="12">
+                <view class="item_num">12</view>
+                <view class="yuan">元</view>
+                <view class="bottom">4500x2</view>
+            </view>
+            <view bindtap="clickItem" class="item" data-item="15">
+                <view class="item_num">15</view>
+                <view class="yuan">元</view>
+                <view class="bottom">5500x2</view>
+            </view>
+            <view bindtap="clickItem" class="item" data-item="20">
+                <view class="item_num">20</view>
+                <view class="yuan">元</view>
+                <view class="bottom">8000x2</view>
+            </view>
+        </view>
+    </view>
+    <view class="empty"></view>
+</view>

@@ -1,0 +1,13 @@
+<view style="width:100%;height:50rpx;"></view>
+<view class="grid col-3 padding-sm">
+    <view class="padding-sm" wx:for="{{ColorList}}" wx:for-index="idx" wx:key="id">
+        <view bindtap="showDetail" class="bg-{{item.name}} padding radius text-center shadow-blur" id="{{idx}}">
+            <view class="text-lg">{{item.title}}</view>
+            <view class="margin-top-sm text-abc">{{item.pinyin}}</view>
+        </view>
+    </view>
+</view>
+<view class="flex padding justify-center">
+    <button class="cu-btn round lg bg-brown shadow" openType="share">分享给好友</button>
+</view>
+<ad adTheme="white" adType="video" unitId="{{adunit_sp}}"></ad>

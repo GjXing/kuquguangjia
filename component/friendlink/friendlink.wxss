@@ -1,0 +1,28 @@
+@-webkit-keyframes scale-animation {
+    50% {
+        transform-origin: left bottom;
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform-origin: left bottom;
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-animation {
+    50% {
+        transform-origin: left bottom;
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform-origin: left bottom;
+        transform: scale(1);
+    }
+}
+
+.scale-animation {
+    animation: scale-animation 1s linear;
+    width: 120rpx;
+}

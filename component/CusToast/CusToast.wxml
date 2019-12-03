@@ -1,0 +1,10 @@
+<template name="toast">
+    <view class="toast_content_box" wx:if="{{isHide}}">
+        <view class="toast_content">
+            <image class="toast11" src="../../../pages/images/jiangjinbi.png"></image>
+            <view class="toast_content_text">  
+        {{content}} 
+      </view>
+        </view>
+    </view>
+</template>

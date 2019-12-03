@@ -1,0 +1,78 @@
+@import "../../wuBaseWxss/3.wxss";
+
+page {
+    background-color: #f9e090;
+}
+
+.levelPancel {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.levelBoxPancel {
+    display: inline-table;
+    width: 120rpx;
+    height: 120rpx;
+    position: relative;
+}
+
+.current-view {
+    margin: 0px;
+    border: 0px;
+}
+
+.levelBox {
+    text-align: center;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 8px;
+    margin: 4px;
+    line-height: 120rpx;
+    position: relative;
+}
+
+.Box-tips {
+    display: block;
+    margin: 0px;
+    border: 0px;
+    width: 90rpx;
+    background: #66c9f7;
+    position: absolute;
+    top: 0rpx;
+    left: 0rpx;
+    line-height: 36rpx;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    z-index: 99;
+}
+
+.bg-clear {
+    background-color: #d38b5b;
+    border-bottom: 4px solid #6b3e1f;
+}
+
+.bg-current {
+    background-color: #d38b5b;
+    border-bottom: 4px solid #6b3e1f;
+}
+
+.bg-locked {
+    background-color: #626065;
+    border-bottom: 4px solid #525153;
+}
+
+.levelWord {
+    margin: 1rpx;
+    font-size: 54rpx;
+    line-height: 120rpx;
+    color: #f9fff4;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+<ad unitId="{{adunit}}"></ad>
+<page>
+    <view class="levelPancel">
+        <block wx:for="{{maxLevel}}" wx:key="{{index}}">
+            <view wx:if="{{index%5==0}}"></view>
+            <view class=" {{index==currentLevel?'levelBoxPancel current-view':'levelBoxPancel'}}">
+                <view class="Box-tips" wx:if="{{index==currentLevel}}">NEW</view>
+                <view bindtap="gotoGuess" class="{{index==currentLevel?'levelBox bg-current':index<currentLevel+1?'levelBox bg-clear':'levelBox bg-locked'}}" data-loc="{{index}}">
+                    <text class="levelWord">{{startLevel+index+1}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+    <view class="footer"></view>
+    <view class="block-botton">
+        <view class="{{isIPX?'page-detail-botton-ad cssIPX':'page-detail-botton-ad'}} " style="padding-left: {{left_style}}px;"></view>
+    </view>
+</page>
+<ad unitId="{{adunit}}"></ad>

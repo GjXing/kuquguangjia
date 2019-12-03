@@ -1,0 +1,155 @@
+<view class="page">
+    <view class="mengban" wx:if="{{menban}}"></view>
+    <view class="group">
+        <view class="up-group" style="background-image: url('http://xcxcy.oss-cn-hangzhou.aliyuncs.com/cycck/icon/caitusbj.png');background-size: 100% 100%;">
+            <view class="header" style="background-image: url('http://xcxcy.oss-cn-hangzhou.aliyuncs.com/cycck/icon/lev3.png');background-size: 100% 100%;">
+                <view class="header-content">{{cur_turn_level}}/{{gqs}}</view>
+            </view>
+            <view class="main-img" wx:if="{{!daan_img}}">
+                <image class="main-img-src" mode="aspectFit" src="{{main_img_url}}" style="opacity:{{shuzhi}}"></image>
+            </view>
+            <view class="main-txt" wx:if="{{daan_img}}">{{data_xyt}}</view>
+            <view class="show" wx:if="{{show_daan}}">{{show_daan}}</view>
+            <view class="zqxsa" wx:if="{{qizi_left}}">
+                <image class="zqa" src="../../imgs/comm/zq.png" style="width:63rpx;height:58rpx;"></image>
+                <image class="qipaoa" src="../../imgs/comm/qipao.png" style="width:118rpx;height:100rpx;"></image>
+            </view>
+            <view class="zqxsb" wx:if="{{qizi_right}}">
+                <image class="zqb" src="../../imgs/comm/zq.png" style="width:63rpx;height:58rpx;"></image>
+                <image class="qipaob" src="../../imgs/comm/qipao.png" style="width:118rpx;height:100rpx;"></image>
+            </view>
+        </view>
+    </view>
+    <view class="toux_one">
+        <image backgroundSize="cover" class="userinfo-avatar_left" src="{{avatarUrl}}"></image>
+        <view class="hezi_one one_line">{{nickname}}</view>
+        <view class="jifen_one">{{fenshu_left}}分</view>
+    </view>
+    <view class="toux_two">
+        <image backgroundSize="cover" class="userinfo-avatar_right" src="{{avatarUrl_right}}"></image>
+        <view class="hezi_two one_line">{{nickname_right}}</view>
+        <view class="jifen_two">{{fenshu_right}}分</view>
+    </view>
+    <view class="diban_left">
+        <image src="../../imgs/comm/diban.png" style="width:160rpx;height:140rpx;"></image>
+    </view>
+    <view class="diban_right">
+        <image src="../../imgs/comm/diban.png" style="width:160rpx;height:140rpx;"></image>
+    </view>
+    <view class="mid-group" wx:if="{{daan_xs}}">
+        <view class="mid-group-1">
+            <view class="center-group">
+                <button bindtap="clickAns" class="ans-items" data-item="0" style="background:{{ans[0]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[0] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="1" style="background:{{ans[1]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[1] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="2" style="background:{{ans[2]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[2] ]}}
+                </button>
+                <button bindtap="clickAns" class="ans-items" data-item="3" style="background:{{ans[3]==24?'#c0c0c0':'#e0b77a'}};background-size: 100% 100%;">
+                    {{array[ ans[3] ]}}
+                </button>
+            </view>
+        </view>
+        <view bindtap="showTips" class="tip-btn" style="display:{{show_tip_btn?'block':'none'}};">
+            <view style="height:60rpx;line-height:60rpx;">提示</view>
+        </view>
+    </view>
+    <view style="height: 260rpx;margin-bottom:220rpx; position: fixed; top: 690rpx;" wx:if="{{daan_xs}}">
+        <view class="flex-wrp" style="flex-direction:row;" wx:if="{{array_show}}">
+            <button bindtap="clickItem" class="flex-item" data-item="0" style="visibility:{{!array_show[0]?'hidden':'show'}}">
+                {{array[0]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="1" style="visibility:{{!array_show[1]?'hidden':'show'}}">
+                {{array[1]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="2" style="visibility:{{!array_show[2]?'hidden':'show'}}">
+                {{array[2]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="3" style="visibility:{{!array_show[3]?'hidden':'show'}}">
+                {{array[3]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="4" style="visibility:{{!array_show[4]?'hidden':'show'}}">
+                {{array[4]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="5" style="visibility:{{!array_show[5]?'hidden':'show'}}">
+                {{array[5]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="6" style="visibility:{{!array_show[6]?'hidden':'show'}}">
+                {{array[6]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="7" style="visibility:{{!array_show[7]?'hidden':'show'}}">
+                {{array[7]}}
+            </button>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+            <button bindtap="clickItem" class="flex-item" data-item="8" style="visibility:{{!array_show[8]?'hidden':'show'}}">
+                {{array[8]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="9" style="visibility:{{!array_show[9]?'hidden':'show'}}">
+                {{array[9]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="10" style="visibility:{{!array_show[10]?'hidden':'show'}}">
+                {{array[10]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="11" style="visibility:{{!array_show[11]?'hidden':'show'}}">
+                {{array[11]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="12" style="visibility:{{!array_show[12]?'hidden':'show'}}">
+                {{array[12]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="13" style="visibility:{{!array_show[13]?'hidden':'show'}}">
+                {{array[13]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="14" style="visibility:{{!array_show[14]?'hidden':'show'}}">
+                {{array[14]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="15" style="visibility:{{!array_show[15]?'hidden':'show'}}">
+                {{array[15]}}
+            </button>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+            <button bindtap="clickItem" class="flex-item" data-item="16" style="visibility:{{!array_show[16]?'hidden':'show'}}">
+                {{array[16]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="17" style="visibility:{{!array_show[17]?'hidden':'show'}}">
+                {{array[17]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="18" style="visibility:{{!array_show[18]?'hidden':'show'}}">
+                {{array[18]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="19" style="visibility:{{!array_show[19]?'hidden':'show'}}">
+                {{array[19]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="20" style="visibility:{{!array_show[20]?'hidden':'show'}}">
+                {{array[20]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="21" style="visibility:{{!array_show[21]?'hidden':'show'}}">
+                {{array[21]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="22" style="visibility:{{!array_show[22]?'hidden':'show'}}">
+                {{array[22]}}
+            </button>
+            <button bindtap="clickItem" class="flex-item" data-item="23" style="visibility:{{!array_show[23]?'hidden':'show'}}">
+                {{array[23]}}
+            </button>
+        </view>
+    </view>
+    <view class="bottom" style="height:auto;visibility:{{showAd?'show':'hidden'}}">
+        <image bindtap="jump" src="http://xcxcy.oss-cn-hangzhou.aliyuncs.com/fengkuang.gif" style="height:180rpx;width:700rpx;" wx:if="{{banner_sts}}"></image>
+    </view>
+    <view class="chenggong" wx:if="{{qizi_left}}">
+        <view style="margin-top:4rpx;">抢答成功</view>
+    </view>
+    <view class="shibai" wx:if="{{qizi_left}}">
+        <view style="margin-top:4rpx;">抢答失败</view>
+    </view>
+    <view class="chenggong1" wx:if="{{qizi_right}}">
+        <view style="margin-top:4rpx;">抢答成功</view>
+    </view>
+    <view class="shibai1" wx:if="{{qizi_right}}">
+        <view style="margin-top:4rpx;">抢答失败</view>
+    </view>
+</view>
